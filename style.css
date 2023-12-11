@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+body {
+color: rgb(43, 45, 111);
+font-family: 'Hedvig', sans-serif;
+background-color: gainsboro;
+font-size: 25px;
+line-height: 1.6;
+}
+
+h1, h2 {
+color: rgb(54, 108, 108);
+font-size: 30 px;
+line-height: 2;
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+
+.container {
+  background-color: lightgray;
+  text-align: center;
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 300px;        /* Set the width */
+  margin: 50px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px auto;
+}
